@@ -1,4 +1,4 @@
-/* console.log('this script is for async practice')
+ console.log('this script is for async practice')
 
 
 function callme(){
@@ -24,6 +24,8 @@ function checkSum(a,b){
 checkSum(5,6)
 
 
+
+
 function checkEO(x){
     if (x % 2 == 0 ){
         return x + "the number is even"
@@ -34,7 +36,6 @@ function checkEO(x){
 
 checkEO(45)
 
-*/
 
 
 // counting how many times a number appears 
@@ -138,9 +139,9 @@ for (i=0;i < str.length;i++){
 
 console.log(count_a)
 
-// find the longest word in a sentance 
+// find the longest word in a sentence 
 
-let sentence = "JavaScript makes web development powerful"
+let sentence = " rohit loves playing football"
 
 let words = sentence.split(' ')
 let longestWord = ""
