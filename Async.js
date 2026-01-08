@@ -1,9 +1,5 @@
 /* // this script is for asynchronous practice 
 
-//when do we use async programming 
-// what is async 
-// practice arrow function 
-
 /*
 console.log('one')
 console.log('two')
@@ -16,7 +12,7 @@ console.log('three')
 console.log('four')
 */
 
-// callback is an argument to an another function 
+// callback is an argument to another function 
 // A callback is a function that is passed as an argument to another function and is executed later, usually after an asynchronous task finishes.
 
 /*  
@@ -163,7 +159,7 @@ p1.then((res)=> {
     })
 })
 */
-// can nbe called directly through the function 
+// can be called directly through the function 
 // promise chaining 
 console.log('fetching data1')
 asyncfunc1().then((res)=>{
@@ -201,7 +197,24 @@ async function getweatherdata(){ // call in console
 }
 
 
-// await pauses the execution of its surrounding async function until the promise is setteled 
+
+function getTea() {
+  return new Promise(resolve => {
+    setTimeout(() => resolve("Tea ready"), 3000);
+  });
+}
+
+async function drinkTea() {
+  console.log("Waiting for tea...");
+  const tea = await getTea();
+  console.log(tea);
+}
+
+drinkTea();
+
+
+
+// await pauses the execution of its surrounding async function until the promise is settled 
 // READ IIFE -  immediately invoked function expression  */
 
 
