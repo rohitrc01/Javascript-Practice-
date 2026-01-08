@@ -1,4 +1,4 @@
-/* console.log('this script is for async practice')
+
 
 
 function callme(){
