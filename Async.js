@@ -1,9 +1,6 @@
 /* // this script is for asynchronous practice 
 
 /*
-console.log('one')
-console.log('two')
-
 setTimeout(() => {
     console.log('hello')
 }, 2000);
@@ -74,7 +71,7 @@ getdata(1,()=> {
 });
 
 */
-// complex to understand and manage -it is problem in javascript therfore we use promises 
+// complex to understand and manage -it is a problem in javascript therfore we use promises 
 
 
 //PROMISES 
